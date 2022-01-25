@@ -1,0 +1,5 @@
+.invoice-review .line-items .row,
+.invoice-review .line-items .footer {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 0.5rem 0;
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+
+.on-site-activity-chart > div {
+    @apply border-t border-solid border-lightgray pt-2 pb-2;
+}
+
+.on-site-activity-chart > div.axis {
+    @apply pt-0;
+}
+
+.on-site-activity-table > div {
+    @apply border-t border-solid border-lightgray p-4 text-sm;
+}
+
+.on-site-activity-table > div.header {
+    @apply font-bold text-darkgray;
+}
+
+.provider-rating-chart > div {
+    @apply pt-2 pb-2;
+}
+
+.provider-rating-chart > div.axis {
+    @apply pt-0;
+}
+
+.provider-rating-chart > div.x-axis {
+    @apply font-bold border-t border-solid border-gray text-darkgray;
+}
+
+.provider-rating-table > div {
+    @apply border-t border-solid border-lightgray p-4 text-sm;
+}
+
+.provider-rating-table > div.header {
+    @apply font-bold text-darkgray;
+}
+
+@tailwind utilities;

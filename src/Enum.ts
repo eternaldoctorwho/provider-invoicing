@@ -1,0 +1,20 @@
+export enum USER_TYPES {
+    ANONYMOUS,
+    CUSTOMER,
+    PROVIDER,
+    RETAIL,
+    PROPERTY_MANAGER,
+    DIVISIONS,
+};
+
+export enum BREADCRUMB_STATUS {
+    COMPLETE,
+    IN_PROGRESS,
+    TO_DO,
+}
+
+export enum ACTIVITY_TYPES {
+    REGULAR,
+    HELPER,
+    UNAPPROVED,
+}
